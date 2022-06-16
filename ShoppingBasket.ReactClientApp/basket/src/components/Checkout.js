@@ -153,6 +153,9 @@ export default class Checkout extends Component {
     };
 
     handleCellEditCommit = (params, event) => {
+        if (isNaN(Number(params.value)) || Number(params.value) < 0)
+            return 0;
+
         const quantity = params.value;
         const updatedRows = this.state.rows.map((row) => {
             if (row.id === params.id) {

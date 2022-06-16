@@ -10,6 +10,10 @@ import { yellow } from '@mui/material/colors';
 import Fab from '@mui/material/Fab';
 import React, { Fragment, useEffect, useState } from 'react';
 import { makeStyles } from '@mui/styles';
+import Dynamo from '../data/Dynamo.jpg';
+import NestleKitkat from '../data/NestleKitkat.jpg';
+import Nivea from '../data/Nivea.jpg';
+import oralB from '../data/Oral-b.jpg';
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -24,9 +28,9 @@ const useStyles = makeStyles(() => ({
         width: '100%'
     },
     media: {
-        paddingTop: '56.25%',
-        height: '40px',
-        width: '54px',
+        paddingTop: '86.25%',
+        height: '100%',
+        width: '100%',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -76,16 +80,16 @@ export default function ProductCard(props) {
         switch (product.id) {
             case 1:
             default:
-                img = 'C://JK//Projects//Dotnet//Self//ShoppingBasket//ShoppingBasket.ReactClientApp//basket//src//data//Dynamo.jpg';
+                img = Dynamo;
                 break;
             case 2:
-                img = '../data/NestleKitkat.jpg';
+                img = NestleKitkat;
                 break;
             case 3:
-                img = '../data/Nivea.jpg';
+                img = Nivea;
                 break;
             case 4:
-                img = '../data/Oral-b.jpg';
+                img = oralB;
                 break;
         }
         return (
