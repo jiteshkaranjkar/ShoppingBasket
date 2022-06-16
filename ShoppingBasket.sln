@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.WebAPI", "ShoppingBasket.WebAPI\ShoppingBasket.WebAPI.csproj", "{56925A76-D59D-4687-87A5-85AFC28BDC05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Core", "ShoppingBasket.Core\ShoppingBasket.Core.csproj", "{772EC643-7BCA-4E29-87F3-538727B3EDA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBasket.Infrastructure", "ShoppingBasket.Infrastructure\ShoppingBasket.Infrastructure.csproj", "{ED9EA219-F66E-429D-83D1-1DCBD97CC171}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{62D325A4-973B-4E8F-8A67-F1D2CF419696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{95E29E6A-83D2-4E18-87D6-5D755355C2AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShoppingBasket.ReactClientApp", "ShoppingBasket.ReactClientApp", "{7A3E2405-DB5F-43DD-A96A-B39088D02AE6}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "basket", "ShoppingBasket.ReactClientApp\basket\", "{D2B818C6-FDB1-41EC-AE18-D8768C7A9465}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53073"
+		Debug.AspNetCompiler.PhysicalPath = "ShoppingBasket.ReactClientApp\basket\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53073\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53073"
+		Release.AspNetCompiler.PhysicalPath = "ShoppingBasket.ReactClientApp\basket\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53073\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53073"
+		SlnRelativePath = "ShoppingBasket.ReactClientApp\basket\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket.Tests", "ShoppingBasket.Tests\ShoppingBasket.Tests.csproj", "{358C74D6-2C40-43B9-A7EB-5E980886A4EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56925A76-D59D-4687-87A5-85AFC28BDC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56925A76-D59D-4687-87A5-85AFC28BDC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56925A76-D59D-4687-87A5-85AFC28BDC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56925A76-D59D-4687-87A5-85AFC28BDC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772EC643-7BCA-4E29-87F3-538727B3EDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772EC643-7BCA-4E29-87F3-538727B3EDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772EC643-7BCA-4E29-87F3-538727B3EDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772EC643-7BCA-4E29-87F3-538727B3EDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9EA219-F66E-429D-83D1-1DCBD97CC171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9EA219-F66E-429D-83D1-1DCBD97CC171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9EA219-F66E-429D-83D1-1DCBD97CC171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9EA219-F66E-429D-83D1-1DCBD97CC171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B818C6-FDB1-41EC-AE18-D8768C7A9465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B818C6-FDB1-41EC-AE18-D8768C7A9465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B818C6-FDB1-41EC-AE18-D8768C7A9465}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B818C6-FDB1-41EC-AE18-D8768C7A9465}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{358C74D6-2C40-43B9-A7EB-5E980886A4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358C74D6-2C40-43B9-A7EB-5E980886A4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358C74D6-2C40-43B9-A7EB-5E980886A4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358C74D6-2C40-43B9-A7EB-5E980886A4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56925A76-D59D-4687-87A5-85AFC28BDC05} = {62D325A4-973B-4E8F-8A67-F1D2CF419696}
+		{772EC643-7BCA-4E29-87F3-538727B3EDA4} = {62D325A4-973B-4E8F-8A67-F1D2CF419696}
+		{ED9EA219-F66E-429D-83D1-1DCBD97CC171} = {62D325A4-973B-4E8F-8A67-F1D2CF419696}
+		{7A3E2405-DB5F-43DD-A96A-B39088D02AE6} = {62D325A4-973B-4E8F-8A67-F1D2CF419696}
+		{D2B818C6-FDB1-41EC-AE18-D8768C7A9465} = {7A3E2405-DB5F-43DD-A96A-B39088D02AE6}
+		{358C74D6-2C40-43B9-A7EB-5E980886A4EB} = {95E29E6A-83D2-4E18-87D6-5D755355C2AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58827911-BE68-4186-B5F3-552D8B59C578}
+	EndGlobalSection
+EndGlobal
